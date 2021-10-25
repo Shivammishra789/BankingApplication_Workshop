@@ -11,7 +11,7 @@ public class SavingsAccount {
 	}
 
 	public void calculateMonthlyInterest() {									//calculated monthly interest
-		double monthyInterest = savingsBalance * (annualInterestRate/ 12);
+		double monthyInterest = savingsBalance * (annualInterestRate/ (12*100));
 		savingsBalance = savingsBalance + monthyInterest;	
 	}
 
